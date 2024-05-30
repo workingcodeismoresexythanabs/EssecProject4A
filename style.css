@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+.header {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.banner {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.banner h2 {
+    margin: 0;
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.thumbnail {
+    flex-basis: 30%;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.thumbnail h3 {
+    margin: 0;
+}
+
+.footer {
+    background-color: #ff0000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+header {
+  background-color: #fefefe;
+  color: rgb(45, 43, 43);
+  padding: 10px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+footer {
+  background-color: #d7d1c6;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 8px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrage horizontal */
+  justify-content: center; /* Centrage vertical */
+  text-align: center; /* Alignement du texte */
+}
+
+.separation {
+  background-color: #d7d1c6;
+  padding: 20px; /* l'espace intérieur */
+  padding-bottom: 200px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.MARA-jewelry-container {
+  font-size: 22px;
+  flex: 0 0 40%; /* la largeur du texte */
+  padding: 40px; /* Espace intérieur autour du texte */
+}
+
+.photo {
+  text-align: center; /* Centrer l'image horizontalement */
+  margin-bottom: 20px; /* Espace en bas de chaque case photo */
+}
+
+.photo img {
+  max-width: 100%; /* Pour s'assurer que l'image ne dépasse pas de la case */
+  height: 700px; /* Pour maintenir les proportions de l'image */
+  width: 700px;
+  border-radius: 10px; /* Coins arrondis pour l'image */
+}
+
+.texte-additionnel {
+  font-size: 22px;
+  flex: 0 0 40%; /* la largeur du texte */
+  padding: 40px; /* Espace intérieur autour du texte */
+}
