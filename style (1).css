@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}h1, h2 {
+    color: #444;
+}h1 {
+    text-align: center;
+    margin-top: 20px;
+}h2 {
+    margin-top: 30px;
+}p {
+    margin: 15px 0;
+    padding: 0 20px;
+}img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    max-width: 200px;
+}a {
+    color: #0099cc;
+    text-decoration: none;
+}a:hover {
+    text-decoration: underline;
+}
+
+/* Card Styles */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 20px;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.card h1, .card h2 {
+    margin-top: 0;
+}
+
+.card p {
+    margin: 15px 0;
+}
+
+/* Specific Card Styles */
+.card.vwhite {
+    background-color: #fff;
+}
+
+.card-blue{
+    background-color: #e0bbff;
+}
+
+.card-white {
+    background-color: #fff;
+}
+
+.card-blue {
+    background-color: #bbdefb;
+}
+
+/* Button Styles */
+.btn-black, .btn-white {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-black {
+    background-color: #333;
+    color: #fff;
+}.btn-white {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;}
+
+.btn-black:hover, .btn-white:hover {
+    opacity: 0.8;
+}
+
+/* List Styles */
+ul.list-inline {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+} ul.list-inline li {
+    display: inline;
+    margin: 0 10px;}
